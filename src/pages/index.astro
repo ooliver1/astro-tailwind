@@ -1,60 +1,56 @@
 ---
-// Component Imports
-import Tour from "../components/Tour.astro";
-// You can import components from any supported Framework here!
-
-// Component Script:
-// You can write any JavaScript/TypeScript that you'd like here.
-// It will run during the build, but never in the browser.
-// All variables are available to use in the HTML template below.
-let title = "My Astro Site";
-
-// Full Astro Component Syntax:
-// https://docs.astro.build/core-concepts/astro-components/
+// SPDX-License-Identifier: MIT
 ---
 
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>{title}</title>
-
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style global>
       @import "../styles/global.css";
     </style>
-
-    <style>
-      header {
-        display: flex;
-        flex-direction: column;
-        gap: 1em;
-        max-width: min(100%, 68ch);
-      }
-    </style>
+    <title>title</title>
+    <!-- <link rel="shortcut icon" href="/icons/favicon.ico" />
+    <link rel="icon" sizes="16x16 32x32 64x64" href="/icons/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="196x196" href="/icons/favicon-192.png" />
+    <link rel="icon" type="image/png" sizes="160x160" href="/icons/favicon-160.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96.png" />
+    <link rel="icon" type="image/png" sizes="64x64" href="/icons/favicon-64.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png" />
+    <link rel="apple-touch-icon" href="/icons/favicon-57.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/icons/favicon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/icons/favicon-72.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/icons/favicon-144.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/icons/favicon-60.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/icons/favicon-120.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/icons/favicon-76.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/favicon-152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/favicon-180.png" />
+    <meta name="msapplication-TileColor" content="#9966CC" />
+    <meta name="msapplication-TileImage" content="/icons/favicon-144.png" />
+    <meta name="msapplication-config" content="/extra/browserconfig.xml" />
+    <meta name="title" content="title" />
+    <meta name="description" content="description" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://u.rl" />
+    <meta property="og:title" content="title" />
+    <meta property="og:description" content="description" />
+    <meta property="og:image" content="https://i.imgur.com/img.png" />
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:url" content="https://u.rl" />
+    <meta property="twitter:title" content="title" />
+    <meta property="twitter:description" content="description" />
+    <meta property="twitter:image" content="https://i.imgur.com/img.png" /> -->
   </head>
+
   <body>
-    <main>
-      <header>
-        <div>
-          <img width="60" height="80" src="/assets/logo.svg" alt="Astro logo" />
-          <h1>Welcome to <a href="https://astro.build/">Astro</a></h1>
-        </div>
-      </header>
-
-      <Tour />
-
-      <!--
-
-		You can also use imported framework components directly in your markup!
-		
-		Note: by default, these components are NOT interactive on the client.
-		The `:visible` directive tells Astro to make it interactive.
-		
-		See https://docs.astro.build/core-concepts/component-hydration/ 
-
-		-->
-      <p class="bg-purple-500">twcss test</p>
-    </main>
+    <div class="bg-purple-700">
+      <section class="p-10 text-5xl flex justify-center items-center">
+        <h1 class="text-white">text</h1>
+      </section>
+    </div>
   </body>
 </html>
