@@ -9,7 +9,7 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "@astrojs/sitemap": "^0.2.2",
+    "@astrojs/sitemap": "^0.2.3",
     "@astrojs/tailwind": "^0.2.1",
     "astro": "^0.26.1",
     "autoprefixer": "^10.4.7",
