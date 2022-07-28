@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@astrojs/sitemap": "^0.2.6",
-    "@astrojs/tailwind": "^0.2.4",
+    "@astrojs/tailwind": "^0.2.5",
     "astro": "^0.26.1",
     "autoprefixer": "^10.4.7",
     "prettier-plugin-astro": "0.1.2",
